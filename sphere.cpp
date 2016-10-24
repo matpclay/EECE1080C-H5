@@ -7,3 +7,9 @@
 * This file contains a solution to finding the surface area and volume of a
 * sphere.
 */
+#include <math.h>
+class sphere {
+  // initialize variables to store relevant values
+public:
+  double radius;
+}
