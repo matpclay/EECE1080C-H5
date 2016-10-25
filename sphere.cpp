@@ -33,11 +33,22 @@ void Sphere::set_radius(double rad) {
 
 
 int main() {
-  // create a Sphere object as a test case
-  Sphere sphere1; // declares an object sphere1 of type Sphere
-  sphere1.set_radius(4); // arbitrary value
-  // output results
-  cout << "volume: " << sphere1.find_volume() << endl;
-  cout << "surface area: " << sphere1.find_surface_area() << endl;
+  // create an array of Sphere objects as test cases
+  Sphere spheres [5]; // initializes an array of Sphere objects
+  spheres[0].set_radius(4); // arbitrary values
+  spheres[1].set_radius(5.5);
+  spheres[2].set_radius(1);
+  spheres[3].set_radius(0);
+  spheres[4].set_radius(15.625);
+
+  int length = sizeof(spheres)/sizeof(*spheres); // store length of spheres
+
+  // output results for each sphere
+  for (int k = 0; k < length; k++) {
+    std::cout << "Sphere " << k+1 << std::endl;
+    std::cout << "volume: " << spheres[k].find_volume() << std::endl;
+    std::cout << "surface area: " << spheres[k].find_surface_area() << std::endl;
+    std::cout << "" << std::endl; // blank line
+  }
 return 0;
 }
