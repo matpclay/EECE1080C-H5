@@ -1,0 +1,91 @@
+Matthew Clayton
+EECE 1080C H5 Test Outputs
+24 October 2016
+
+Sphere sample output: 
+
+Sphere 1
+volume: 268.083
+surface area: 201.062
+
+Sphere 2
+volume: 696.91
+surface area: 380.133
+
+Sphere 3
+volume: 4.18879
+surface area: 12.5664
+
+Sphere 4
+volume: 0
+surface area: 0
+
+Sphere 5
+volume: 15979
+surface area: 3067.96
+
+Torus sample output: 
+
+Torus 1
+volume: 1243.57
+surface area: 829.047
+
+Torus 2
+volume: 0
+surface area: 0
+
+Torus 3
+volume: 1973.92
+surface area: 789.568
+
+Torus 4
+volume: 473.741
+surface area: 473.741
+
+Torus 5
+volume: 13601.5
+surface area: 3627.08
+
+Cone sample output: 
+
+Cone 1
+volume: 29.3215
+surface area: 58.3087
+
+Cone 2
+volume: 0
+surface area: 0
+
+Cone 3
+volume: 51.8363
+surface area: 87.3204
+
+Cone 4
+volume: 6.54498
+surface area: 40.7824
+
+Cone 5
+volume: 490.874
+surface area: 995.687
+
+Prism sample output: 
+
+Prism 1
+volume: 300
+surface area: 338
+
+Prism 2
+volume: 0
+surface area: 24
+
+Prism 3
+volume: 22
+surface area: 36
+
+Prism 4
+volume: 3.8
+surface area: 25.56
+
+Prism 5
+volume: 22.5
+surface area: 54
